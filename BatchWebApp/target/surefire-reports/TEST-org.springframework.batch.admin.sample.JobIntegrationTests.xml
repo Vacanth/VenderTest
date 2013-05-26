@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" time="0.575" errors="0" skipped="0" tests="1" name="org.springframework.batch.admin.sample.JobIntegrationTests">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre7\bin"/>
+    <property name="java.vm.version" value="23.6-b04"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\StartUp\Views\Start6\VenderTool\BatchWebApp"/>
+    <property name="java.runtime.version" value="1.7.0_10-b18"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre7\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Girish\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\WebProjects\Workspace\BatchMain3\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf5597035121821176064.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jre7\bin;C:\WebAppInstall\apache-maven-3.0.5-bin\apache-maven-3.0.5\bin;C:\Program Files\Java\jre7\bin;C:\Program Files (x86)\Git\cmd;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Girish"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Girish"/>
+    <property name="java.class.path" value="/C:/WebAppInstall/eclipse-jee-juno-SR2-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/818/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre7"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\StartUp\Views\Start6\VenderTool\BatchWebApp\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.574" classname="org.springframework.batch.admin.sample.JobIntegrationTests" name="testSimpleProperties">
+    <failure message="expected:&lt;[[]infinite, job1, job2...&gt; but was:&lt;[[CategoryJob, ]infinite, job1, job2...&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[[]infinite, job1, job2...&gt; but was:&lt;[[CategoryJob, ]infinite, job1, job2...&gt;
+	at org.junit.Assert.assertEquals(Assert.java:123)
+	at org.junit.Assert.assertEquals(Assert.java:145)
+	at org.springframework.batch.admin.sample.JobIntegrationTests.testSimpleProperties(JobIntegrationTests.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>11:19:00,024  INFO main context.TestContextManager:192 - @TestExecutionListeners is not present for class [class org.springframework.batch.admin.sample.JobIntegrationTests]: using defaults.
+11:19:00,026  INFO main xml.XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [org/springframework/batch/admin/sample/JobIntegrationTests-context.xml]
+11:19:00,055  INFO main xml.XmlBeanDefinitionReader:315 - Loading XML bean definitions from URL [jar:file:/C:/Users/Girish/.m2/repository/org/springframework/batch/spring-batch-admin-manager/1.0.0.M1/spring-batch-admin-manager-1.0.0.M1.jar!/META-INF/bootstrap/execution-context.xml]
+11:19:00,088  INFO main xml.XmlBeanDefinitionReader:315 - Loading XML bean definitions from URL [jar:file:/C:/Users/Girish/.m2/repository/org/springframework/batch/spring-batch-admin-manager/1.0.0.M1/spring-batch-admin-manager-1.0.0.M1.jar!/META-INF/bootstrap/env-context.xml]
+11:19:00,104  INFO main xml.XmlBeanDefinitionReader:315 - Loading XML bean definitions from URL [jar:file:/C:/Users/Girish/.m2/repository/org/springframework/batch/spring-batch-admin-manager/1.0.0.M1/spring-batch-admin-manager-1.0.0.M1.jar!/META-INF/bootstrap/data-source-context.xml]
+11:19:00,124  INFO main support.GenericApplicationContext:447 - Refreshing org.springframework.context.support.GenericApplicationContext@427cb892: startup date [Sun May 26 11:19:00 PDT 2013]; root of context hierarchy
+11:19:00,127  INFO main config.PropertyPlaceholderConfigurer:177 - Loading properties file from class path resource [batch-hsql.properties]
+11:19:00,149  INFO main support.DefaultListableBeanFactory:533 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1d4b3266: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.batch.core.scope.StepScope#0,jobLauncher,jobLauncherTaskExecutor,poolTaskExecutor,throttledTaskExecutor,jobRepository,jobExplorer,jobLoader,jobRegistry,jobInstanceDao,jobExecutionDao,stepExecutionDao,org.springframework.batch.admin.service.SimpleJobService#0,dataSourceInitializer,placeholderProperties,dataSource,transactionManager]; root of factory hierarchy
+11:19:00,154 DEBUG main datasource.DataSourceUtils:112 - Fetching JDBC Connection from DataSource
+11:19:00,155 DEBUG main datasource.DataSourceUtils:312 - Returning JDBC Connection to DataSource
+11:19:00,155  INFO main support.JobRepositoryFactoryBean:145 - No database type set, using meta data indicating: HSQL
+11:19:00,164  INFO main concurrent.ThreadPoolTaskExecutor:115 - Initializing ExecutorService 
+11:19:00,167  INFO main concurrent.ThreadPoolTaskExecutor:115 - Initializing ExecutorService 
+11:19:00,178 DEBUG main datasource.DataSourceUtils:112 - Fetching JDBC Connection from DataSource
+11:19:00,179 DEBUG main datasource.DataSourceUtils:312 - Returning JDBC Connection to DataSource
+11:19:00,179 DEBUG main datasource.DataSourceUtils:112 - Fetching JDBC Connection from DataSource
+11:19:00,179 DEBUG main datasource.DataSourceUtils:312 - Returning JDBC Connection to DataSource
+11:19:00,193  INFO main datasource.DataSourceInitializer:59 - Initializing with scripts: [class path resource [org/springframework/batch/core/schema-hsqldb.sql], class path resource [business-schema-hsqldb.sql]]
+11:19:00,201  INFO main xml.XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]
+11:19:00,307  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;job1&apos;: replacing [Generic bean: class [org.springframework.batch.core.configuration.xml.SimpleFlowFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.batch.core.configuration.xml.JobParserJobFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+11:19:00,308  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;job2&apos;: replacing [Generic bean: class [org.springframework.batch.core.configuration.xml.SimpleFlowFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.batch.core.configuration.xml.JobParserJobFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+11:19:00,309  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;infinite&apos;: replacing [Generic bean: class [org.springframework.batch.core.configuration.xml.SimpleFlowFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.batch.core.configuration.xml.JobParserJobFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+11:19:00,312  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;CategoryJob&apos;: replacing [Generic bean: class [org.springframework.batch.core.configuration.xml.SimpleFlowFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.batch.core.configuration.xml.JobParserJobFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+11:19:00,315  INFO main support.ClassPathXmlApplicationContextFactory$ResourceXmlApplicationContext:447 - Refreshing org.springframework.batch.core.configuration.support.ClassPathXmlApplicationContextFactory$ResourceXmlApplicationContext@2b9027de: startup date [Sun May 26 11:19:00 PDT 2013]; parent: org.springframework.context.support.GenericApplicationContext@427cb892
+11:19:00,315  INFO main support.DefaultListableBeanFactory:421 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@519a7a4a: defining beans [org.springframework.batch.core.scope.internalStepScope,org.springframework.beans.factory.config.CustomEditorConfigurer,org.springframework.batch.core.configuration.xml.CoreNamespacePostProcessor,j1.s1,job1,j2.s1,job2,infinite.s1,infinite,simpleJob,simpleStep,incrementer,step1:master,taskExecutor,step1,step1.allow.start,itemWriter,itemReader,remoteStep1,CategoryJob.s1,CategoryJob.s2,CategoryJob,categoryStep2,categoryStep1,categoryItemWriter,categoryItemReader,categoryPullItemWriter,categoryPullItemReader]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1d4b3266
+11:19:00,316  INFO main xml.XmlBeanDefinitionReader:315 - Loading XML bean definitions from file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]
+11:19:00,495  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;job1&apos;: replacing [Generic bean: class [org.springframework.batch.core.configuration.xml.SimpleFlowFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.batch.core.configuration.xml.JobParserJobFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+11:19:00,496  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;job2&apos;: replacing [Generic bean: class [org.springframework.batch.core.configuration.xml.SimpleFlowFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.batch.core.configuration.xml.JobParserJobFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+11:19:00,496  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;infinite&apos;: replacing [Generic bean: class [org.springframework.batch.core.configuration.xml.SimpleFlowFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.batch.core.configuration.xml.JobParserJobFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+11:19:00,500  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;CategoryJob&apos;: replacing [Generic bean: class [org.springframework.batch.core.configuration.xml.SimpleFlowFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.springframework.batch.core.configuration.xml.JobParserJobFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+11:19:00,502 DEBUG main support.ClassPathXmlApplicationContextFactory$ResourceXmlApplicationContext:461 - Bean factory for org.springframework.batch.core.configuration.support.ClassPathXmlApplicationContextFactory$ResourceXmlApplicationContext@2b9027de: org.springframework.beans.factory.support.DefaultListableBeanFactory@5185fe25: defining beans [org.springframework.batch.core.scope.internalStepScope,org.springframework.beans.factory.config.CustomEditorConfigurer,org.springframework.batch.core.configuration.xml.CoreNamespacePostProcessor,j1.s1,job1,j2.s1,job2,infinite.s1,infinite,simpleJob,simpleStep,incrementer,step1:master,taskExecutor,step1,step1.allow.start,itemWriter,itemReader,remoteStep1,CategoryJob.s1,CategoryJob.s2,CategoryJob,categoryStep2,categoryStep1,categoryItemWriter,categoryItemReader,categoryPullItemWriter,categoryPullItemReader]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1d4b3266
+11:19:00,503  INFO main config.PropertyPlaceholderConfigurer:177 - Loading properties file from class path resource [batch-hsql.properties]
+11:19:00,515  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;itemWriter&apos;: replacing [Generic bean: class [org.springframework.batch.admin.sample.ExampleItemWriter]; scope=step; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]]
+11:19:00,516  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;itemReader&apos;: replacing [Generic bean: class [org.springframework.batch.admin.sample.ExampleItemReader]; scope=step; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]]
+11:19:00,517  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;categoryItemWriter&apos;: replacing [Generic bean: class [org.springframework.batch.admin.category.CategoryItemWritter]; scope=step; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]]
+11:19:00,517  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;categoryItemReader&apos;: replacing [Generic bean: class [org.springframework.batch.admin.category.CategoryItemReader]; scope=step; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]]
+11:19:00,518  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;categoryPullItemWriter&apos;: replacing [Generic bean: class [org.springframework.batch.admin.category.CategoryItemWritter]; scope=step; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]]
+11:19:00,518  INFO main support.DefaultListableBeanFactory:596 - Overriding bean definition for bean &apos;categoryPullItemReader&apos;: replacing [Generic bean: class [org.springframework.batch.admin.categorypull.CategoryPullReader]; scope=step; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]]
+11:19:00,531 DEBUG main support.ClassPathXmlApplicationContextFactory$ResourceXmlApplicationContext:735 - Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@925f6b9]
+11:19:00,531 DEBUG main support.ClassPathXmlApplicationContextFactory$ResourceXmlApplicationContext:759 - Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@67d3caf]
+11:19:00,536  INFO main support.DefaultListableBeanFactory:533 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5185fe25: defining beans [org.springframework.batch.core.scope.internalStepScope,org.springframework.beans.factory.config.CustomEditorConfigurer,org.springframework.batch.core.configuration.xml.CoreNamespacePostProcessor,j1.s1,job1,j2.s1,job2,infinite.s1,infinite,simpleJob,simpleStep,incrementer,step1:master,taskExecutor,step1,step1.allow.start,itemWriter,itemReader,remoteStep1,CategoryJob.s1,CategoryJob.s2,CategoryJob,categoryStep2,categoryStep1,categoryItemWriter,categoryItemReader,categoryPullItemWriter,categoryPullItemReader,scopedTarget.itemWriter,scopedTarget.itemReader,scopedTarget.categoryItemWriter,scopedTarget.categoryItemReader,scopedTarget.categoryPullItemWriter,scopedTarget.categoryPullItemReader]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1d4b3266
+11:19:00,590 DEBUG main support.ClassPathXmlApplicationContextFactory$ResourceXmlApplicationContext:786 - Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@2cb65f76]
+11:19:00,591 DEBUG main support.ClassPathXmlJobLoader:157 - Registering job: job1 from context: file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]
+11:19:00,592 DEBUG main support.ClassPathXmlJobLoader:157 - Registering job: job2 from context: file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]
+11:19:00,592 DEBUG main support.ClassPathXmlJobLoader:157 - Registering job: infinite from context: file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]
+11:19:00,593 DEBUG main support.ClassPathXmlJobLoader:157 - Registering job: CategoryJob from context: file [C:\StartUp\Views\Start6\VenderTool\BatchWebApp\target\classes\META-INF\batch\module-context.xml]
+</system-out>
+  </testcase>
+</testsuite>
